@@ -131,4 +131,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 import mimetypes
 mimetypes.add_type("text/css", ".css", True)
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
